@@ -1,0 +1,179 @@
+body{
+	background-color: #2f3542;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.logo{
+    text-align: center;
+    position: absolute;
+	margin: auto;
+    top: 15vh;
+	left: 0px;
+	right: 0px;
+}
+#logo{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    color:  #f1f2f6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+}
+.toggle{
+	background: #ff7f50;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	margin: auto;
+	bottom: 20vh;
+	left: 0px;
+	right: 0px;
+}
+.fa-plus{
+	font-size: 59px;
+	color: #f1f2f6;
+	display: block;
+	margin-top: 19px;
+	transition: 0.5s;
+}
+.menu{
+	background-color: #f1f2f6;
+	height: 100px;
+	width: 100px;
+	transform: scale(0);
+	border-radius: 50%;
+	position: absolute;
+	margin: auto;
+	bottom: 20vh;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+	transition: 0.5s;
+}
+a{
+	display: inline-block;
+	position: absolute;
+	font-size: 15px;
+	color: #a4b0be;
+}
+a:nth-child(1){
+	top: 5px;
+	left: 43px;
+}
+a:nth-child(2){
+	top: 24px;
+	left: 73px;
+}
+a:nth-child(3){
+	top: 58px;
+	left: 73px;
+}
+a:nth-child(4){
+	top: 72px;
+	left: 43px;
+}
+a:nth-child(5){
+	top: 58px;
+	left: 13px;
+}
+a:nth-child(6){
+	top: 24px;
+	left: 13px;
+}
+a:hover{
+	color: #747d8c;
+}
+
+.button{
+	position: absolute;
+	bottom: 6vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #eccc68, #ff7f50, #ff6b81, #70a1ff , #7bed9f, #eccc68);
+	background-size: 400%;
+	border-radius: 30px;
+	z-index: 1;
+}
+#button a{
+    text-align: center;
+    top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+    color:  #f1f2f6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+}
+.button:hover{
+	animation: animate 8s linear infinite;
+}
+#button a{text-decoration: none;font-weight:bold;}/* 文字链接取消下划线 */
+#button a:link {color: #f1f2f6;}/* 未访问的链接 */
+#button a:visited {color:#f1f2f6;}/* 已访问的链接 */
+#button a:hover {color: #f1f2f6;} /* 鼠标移动到链接上 */
+#button a:active {color: #f1f2f6;} /* 选定的链接 */
+
+@keyframes animate{
+	0%{
+		background-position: 0%;
+	}
+	100%{
+		background-position: 400%;
+	}
+}
+
+.button:before{
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg, #eccc68, #ff7f50, #ff6b81, #70a1ff , #7bed9f, #eccc68);
+	background-size: 400%;
+	border-radius: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.button:hover:before{
+	filter: blur(20px);
+	opacity: 1;
+	animation: animate 8s linear infinite;
+}
+
+.bottom{
+
+    text-align: center;
+    position: absolute;
+	margin: auto;
+    bottom: 22px;
+	left: 0px;
+	right: 0px;
+}
+#bottom{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    color:  #f1f2f6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+}
+#bottom a{text-decoration: none;font-weight:bold;}/* 文字链接取消下划线 */
+#bottom a:link {color: #f1f2f6;}/* 未访问的链接 */
+#bottom a:visited {color:#f1f2f6;}/* 已访问的链接 */
+#bottom a:hover {color: #f1f2f6;} /* 鼠标移动到链接上 */
+#bottom a:active {color: #f1f2f6;} /* 选定的链接 */

@@ -1,0 +1,334 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.details-styling {
+  padding: 1em;
+}
+
+::-moz-selection {
+  background: #cfd8dc;
+  color: #263238;
+}
+
+::selection {
+  background: #cfd8dc;
+  color: #263238;
+}
+
+html,body{
+  width:100%;
+  background: #cfd8dc;
+  color: #37474f;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+code {
+  background: rgba(232, 125, 143, 0.1);
+  color: #e96384;
+}
+h1 {
+  font-size: 2em;
+}
+h1 + p {
+  text-align: left;
+  max-width: 50ch;
+}
+h1 ~ p {
+  font-size: 1.2em;
+  text-align: left;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+h3 {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+.head-div{
+  margin: 0;
+  padding: 0;
+}
+.head-img{
+  vertical-align:center;
+  margin: 40 40 40 40;
+}
+#head-title{
+  text-align: left;
+  margin:40 40 40 40;
+  font-size: 24px;
+  color:#37474f;
+}
+#head-title a{text-decoration: none;font-weight:bold;}/* 文字链接取消下划线 */
+#head-title a:link,a:visited,a:hover,a:active,a:focus{color: #37474f}
+a{text-decoration: none;font-weight:bold;}/* 文字链接取消下划线 */
+a:link,a:visited,a:hover,a:active,a:focus{color: #37474f}/* 未访问的链接 */
+
+/*sticky nav*/
+.nav_sticky {
+  text-align: left;
+  min-height:2.5em; 
+  margin:40 40 40 40;
+  padding:0.5em 50 0 20;
+  font-size: 17px;
+  background-color:#455a64;
+  box-shadow: 0px 0px 16px 4px #aaa;
+  line-height:2em;
+  border-radius: 7px;
+}
+
+.content_sticky{}/*占个位置，控制导航栏贴附的代码里有用*/
+
+
+
+.nav_sticky a {
+  color: #eceff1;
+  box-shadow: inset 0 0 #eceff1;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 1.5em;
+  border-radius: 2px;
+}
+.nav_sticky a:hover, a:focus {
+  box-shadow: inset 0 -1.5em #eceff1;
+  color: #455a64;
+  border-radius: 7px;
+}
+.isthispage{
+  text-align: center;
+  color:#eceff1;
+    border:solid #eceff1;
+    border-top-width:0;
+    border-bottom-width: -3px;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+/*sticky nav end*/
+
+
+#text-div a {
+  color: #263238;
+  box-shadow: inset 0 -3px #b0bec5;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#text-div a:hover, a:focus {
+  box-shadow: inset 0 -1.4em #263238;
+  color: #f8f5fe;
+}
+#text-div abbr {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 1.4em;
+}
+#text-div{
+  text-align: left;
+  line-height:24px;
+  margin:40 40 40 40;
+  padding:40 50 40 50;
+  background-color: #eceff1;
+  box-shadow: 0px 0px 16px #aaa;
+  color:#37474f;
+  border-radius: 7px;
+}
+#paper-div{
+  text-align: left;
+  line-height:24px;
+  margin:20 10 20 10;
+  padding:30 30 30 30;
+  background-color: #eceff1;
+  box-shadow: 0px 0px 12px #ccc;
+  color:#37474f;
+  border-radius: 7px;
+}
+#news-div{
+  float:right;
+  text-align: left;
+  line-height:24px;
+  margin:10 10 20 20;
+  padding:20 20 20 20;
+  background-color: #eceff1;
+  box-shadow: 0px 0px 12px #aaa;
+  color:#37474f;
+  width: 200px;
+  min-height: 200px;
+  border-radius: 7px;
+}
+#photo{
+  float:left;
+  text-align: left;
+  line-height:24px;
+  margin:10 10 20 20;
+  padding:20 20 20 20;
+  background-color: #eceff1;
+  box-shadow: 0px 0px 12px #aaa;
+  color:#37474f;
+  width: 200px;
+  min-height: 300px;
+  border-radius: 7px;
+}
+
+#photos-div{
+  text-align: left;
+  line-height:24px;
+  margin:40 40 40 40;
+  padding:40 50 40 50;
+  background-color: #eceff1;
+  box-shadow: 0px 0px 16px #aaa;
+  color:#37474f;
+  border-radius: 7px;
+}
+.container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.container .card{
+	position: relative;
+	min-width: 400px;
+	max-width: 600px;
+	height:400px;
+	background: #eceff1;
+	margin: 15 15 15 15;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+    box-shadow: 0px 0px 12px 0px #bbb;
+	transition: 0.5s
+}
+.container .card p {
+    font-size: 17px;
+}
+.container .card:hover .card-text{
+    opacity: 1;
+}
+.container .card:hover .pic{
+    opacity: 0.3;
+}
+.container .card .card-text {
+	position:absolute;
+	left:30px;
+	top:35px;
+    opacity: 0;
+	font-size: 2em;
+	color: #37474f;
+	transition: 0.5s;
+}
+
+.container .card .pic:hover{
+    opacity: 0.3;
+}
+.container .card .pic:hover ~.card-text{
+    opacity: 1;
+}
+.container .card .pic{
+    float:left;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    transition: 0.5s
+}
+
+
+.container .membercard{
+	position: relative;
+	width: 330px;
+	min-height:300px;
+	max-height:440px;
+	background: #eceff1;
+	margin: 15 15 15 15;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+    box-shadow: 0px 0px 12px 0px #bbb;
+	transition: 0.5s
+}
+
+.container .membercard p {
+    font-size: 17px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.container .membercard:hover .pic{
+	opacity: 1;
+}
+
+.container .membercard:hover .card-text{
+    opacity: 0;
+}
+.container .membercard .card-text {
+	position:absolute;
+	left:25px;
+	top:35px;
+    opacity: 1;
+	font-size: 2em;
+	color: #37474f;
+	transition: 0.5s;
+}
+.container .membercard .moreinfo {
+	position:absolute;
+	right:30px;
+	bottom:20px;
+    opacity: 1;
+	font-size: 2em;
+	color: #37474f;
+	transition: 0.5s;
+}
+
+.container .membercard .pic:hover{
+    opacity: 1;
+}
+.container .membercard .pic:hover ~.moreinfo{
+    opacity: 0;
+}
+.container .membercard .pic:hover ~.card-text{
+    opacity: 0;
+}
+.container .membercard .pic{
+    float:left;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 7px;
+    transition: 0.5s;
+
+}
+
+.pi-pic{
+    float:right;
+    margin:10 0 0 0;
+    width: 300px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 16px 0px #aaa;
+    transition: 0.5s
+}
+#page-bottom{
+  margin: 0;
+  padding: 40 100 60 100;
+}
+.buttom-logo{
+    height: 32px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 0px #aaa;
+}
