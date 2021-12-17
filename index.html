@@ -241,32 +241,6 @@
 </div>
 <p><input type="checkbox" id="accordion-toggle"><label for="accordion-toggle"> 关闭自动折叠 </label></p>
 
-<div class="container collapse">
-<details>
-    <summary><i class="fas fa-comments"></i> 留言墙</summary>
-    <div class="details-wrapper">
-      <div class="details-styling" >        
-            <p>
-            <?php
-				$counter=file_get_contents('message.txt',$counter);
-				echo "$counter";
-			?>
-			</p>
-			<p>
-			<form action='/messageio.php' method="post" align="center"> 
-				<font size="3"><code>< 昵 称 ></code></font><br>
-				<input  style="width:150px; background-color:#efe7fd; border:0px; border-radius:8px; height:30px;color:#8f63e9; font-size:19px; font-weight:700"type=text name='name' method='post'><br>
-				<font size="3"><code>< 留 言 ></code></font><br>
-				<input style="width:250px; background-color:#efe7fd; border:0px; border-radius:8px; height:30px; color:#8f63e9; font-size:16px; font-weight:700" name='message'></input>
-				<br/><br/>
-				<input type="submit" value="发 射" align="center"style="width:70px; background-color:#efe7fd; border:0px; border-radius:3px; height:30px; color:#8f63e9; font-size:17px; font-weight:700" />  
-			</form>  
-			</p>
-      </div>
-    </div>
-  </details>
-</div>
-
 <p><img src="/src/PT-logo.png" height="20px"><br>友情链接 <br>
   <a href="https://skin.w-m.fun" target="_blank">皮肤站</a>
   <a href="https://zh.moegirl.org.cn/Project_Tequila" target="_blank">WIKI</a>
