@@ -21,8 +21,8 @@ theme:
         name: 夜间模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate 
-      primary: cyan
-      accent: cyan
+      primary: red
+      accent: red
       toggle:
         icon: material/weather-night
         name: 日间模式  
