@@ -1,62 +1,63 @@
-# Project Raki
+# Project Tequila
 
-Welcome to Project Raki.
+**[mc.w-m.fun](https://mc.w-m.fun)**
 
-南开大学选课指南。
+A minecreaft Server.
 
-我们已经完全在[GitHub开源](https://github.com/Shall-We-Dance/ProjectRaki)啦，欢迎来收藏/贡献内容！
+Project Tequila 始于2019年9月，初为南开大学几位同学的内部服务器，经不断升级完善，目前已对外免费开放。
 
-## 网址
+我们已使用[Github](https://github.com/Shall-We-Dance/ProjectTequila)托管，欢迎来[Discussions板块](https://github.com/Shall-We-Dance/ProjectTequila/discussions)讨论留言。
 
-**[nkuhole.com](https://nkuhole.com)**
+一个轻松舒适的地方，不只是游戏。
 
-## 搜索
+任何被邀请者都可以加入，仅有的要求是待人友善，不攻击它人，并遵守服规。
 
-你可以在右上角搜索框搜索任何东西。
+## 配置信息
 
-### 简单互动
+### 皮肤站
 
-欢迎使用Github的[Issues](https://github.com/Shall-We-Dance/ProjectRaki/issues)页面进行提问。
+皮肤站地址为[https://skin.w-m.fun/](https://skin.w-m.fun/)。
 
-**欢迎使用Github的[Discussions](https://github.com/Shall-We-Dance/ProjectRaki/discussions)页面进行交流。**
+### 客户端版本
+
+1.16+版本均可登陆，推荐1.18.1。
+
+## 服规
+
+1. 反对任何形式的歧视。我们禁止任何带有歧视或攻击性的行为，包括但不限于性别、婚姻、生理、种族、地域或宗教信仰；
+
+2. 私人财产神圣不可侵犯。未取得他人同意的前提下，不可更改其的所属物，包括但不限于方块与物品。此条例保护以下情形：
+    + 在私人建筑区域内的；
+    + 在公共区域但做出声明的；
+
+3. 禁止危害公共安全。禁止一切卡服、炸服行为；
+
+4. 保护机器，安全生产。认真阅读机械说明并且谨慎操作，若出现问题请在群内通知；
+
+5. 友好互助。我们建议共享无用材料。取用不属于自己的箱子中的物品时，建议放置木牌说明取用者id与取用内容，减少误会。
+
+2022.01.10
+
+## 加入我们
+
+我们欢迎您加入Project Teuqila！
+
+加入我们目前只有一种方法：
+
+**邀请制**
+
+即经内部成员邀请而加入。
+
+## 致谢
+
++ Dear_Flower 二周目建设与服务器运维
++ zhangwanyu v2.0官网设计，一周目建设
++ Kawakaze_CN 捐助30元 NKU服建设
++ tmk1373 捐助20元 宣传片制作
++ Again141 捐助30元
 
 ## 隐私
 
 本网站与内容分发网络（CDN）**不会采集您的任何信息**，访问经过HTTPS加密。
 
 本网站呈现的内容经过隐私过滤。
-
-## 参与 Project Raki
-
-我们坚持**开放、平等、协作、快速、共享**的互联网精神。
-
-如果你喜欢我们，请分享此项目以帮助更多人。
-
-**愿你拥有一个自由而无用的灵魂！**
-
-### 致谢
-
-内容贡献者:
-
-+ W.M.
-+ 微信公众号“[skyer选课](https://mp.weixin.qq.com/s/fn_ZiamPErfREjNBMhRx_Q)”
-+ psyduck
-+ zc
-+ Wu YX
-
-...
-
-### 贡献内容
-
-本文档使用MarkDown语言完成，本项目使用GitHub Action实现自助提交，自动更新。
-
-**你可以点击右上角编辑按钮进行编辑。**
-
-详见GitHub[ProjectRaki](https://github.com/Shall-We-Dance/ProjectRaki)。
-
-
-### 联系方式
-
-如果您觉得我们可以做的更好，或者认为内容构成侵权，请联系我们。
-
-Email：**wm@greysea.cc**
