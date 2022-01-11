@@ -1,0 +1,44 @@
+site_name: Project Tequila
+theme:
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  name: material
+  language: zh
+  features:
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 日间模式  
+  font:
+    text: 'Quicksand'
+markdown_extensions:
+  - attr_list
+plugins:
+  - search:
+      lang: 
+        - zh
+        - en
+copyright: Copyright &copy; 2018 - 2022 Project Tequila
+extra:
+  generator: false
+      
+repo_url: https://github.com/Shall-We-Dance/ProjectTequila
+repo_name: Project Tequila
+edit_uri: edit/main/docs/
