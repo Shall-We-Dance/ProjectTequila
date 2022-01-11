@@ -2,6 +2,8 @@
 
 **[mc.w-m.fun](https://mc.w-m.fun)**
 
+---
+
 A minecreaft Server.
 
 Project Tequila 始于2019年9月，初为南开大学几位同学的内部服务器，经不断升级完善，目前已对外免费开放。
