@@ -2,6 +2,8 @@
 
 **[mc.w-m.fun](https://mc.w-m.fun)**
 
+![logo](./docs/assets/logo.png)
+
 ---
 
 A minecreaft Server.
