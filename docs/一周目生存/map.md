@@ -1,9 +1,5 @@
 # 地图
 
-## 动态地图
-
-[前往地图](https://mc.w-m.fun/mcmap/#/17/64/669/-3/16survival%20-%20overworld/16survival)
-
 ## 平面地图
 
 ### 最新版本
