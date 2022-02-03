@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1643879407",
+        "cacheTag": "1643930524",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -49,7 +49,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "ProjectNKU - overworld",
-            "last_rendertime": 1643879046,
+            "last_rendertime": 1643930397,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
