@@ -18,6 +18,20 @@ Project Tequila 始于2019年9月，初为南开大学几位同学的内部服�
 
 皮肤站地址为[https://skin.w-m.fun/](https://skin.w-m.fun/)。
 
+### 客户端下载
+
+我们推荐使用官方启动器或[HMCL启动器](https://hmcl.huangyuhui.net)。
+
+HMCL官方下载较慢，在此提供镜像。
+
+#### Windows
+
+[HMCL-3.5.3.exe](./src/HMCL-3.5.3.exe)
+
+#### MacOS & Linux
+
+[HMCL-3.5.3.jar](./src/HMCL-3.5.3.jar)
+
 ### 客户端版本
 
 1.16+版本均可登陆，推荐1.18.1。
